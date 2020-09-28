@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Bungasai';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/fonts/Bungasai/bungasai.regular-webfont.woff') format('woff'), url('./assets/fonts/Bungasai/bungasai.regular-webfont.woff2') format('woff2');
+}
+
+
+/* icons */
+
+i.fa.fa-cera {
+    background-image: url('./assets/icons/cera.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -25px;
+}
+
+.spa-btn {
+    background-color: white !important;
+}
+
+i.fa.fa-spa {
+    background-image: url('./assets/icons/spa.png');
+    width: 40px;
+    height: 40px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -15px;
+}
+
+i.fa.fa-spa::before {
+    content: none !important;
+}
+
+i.fa.fa-una {
+    background-image: url('./assets/icons/una.jpg');
+    width: 42px;
+    height: 42px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -15px;
+}
+
+i.fa.fa-corte {
+    background-image: url('./assets/icons/corte.png');
+    width: 40px;
+    height: 40px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -15px;
+}
+
+i.fa.fa-tinte {
+    background-image: url('./assets/icons/tinte.png');
+    width: 60px;
+    height: 60px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -25px;
+}
+
+i.fa.fa-cuchilla {
+    background-image: url('./assets/icons/cuchilla.png');
+    width: 45px;
+    height: 45px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -15px;
+}
+
+i.fa.fa-pestana {
+    background-image: url('./assets/icons/pestana.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -25px;
+}
+
+i.fa.fa-ceja {
+    background-image: url('./assets/icons/ceja.png');
+    width: 40px;
+    height: 40px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -15px;
+}
+
+i.fa.fa-beauty {
+    background-image: url('./assets/icons/beauty.jpg');
+    width: 45px;
+    height: 45px;
+    background-size: auto 100%;
+    background-position: center;
+    margin: -20px;
+}
+
+@keyframes ico-move-on {
+    0% {
+        background-size: auto 100%;
+    }
+    40% {
+        background-size: auto 110%;
+    }
+    80% {
+        background-size: auto 90%;
+    }
+    100% {
+        background-size: auto 99%;
+    }
+}
