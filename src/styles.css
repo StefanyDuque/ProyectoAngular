@@ -113,3 +113,20 @@ i.fa.fa-beauty {
         background-size: auto 99%;
     }
 }
+
+.card-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em
+}
+
+.card-img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 200px;
+    width: auto !important;
+    padding: 2rem;
+}

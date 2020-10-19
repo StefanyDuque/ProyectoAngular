@@ -14,8 +14,14 @@
                 <h5 class="headin5_amrc col_white_amrc pt2">Contáctanos</h5>
                 <!--headin5_amrc-->
                 <h4 class="mb10 "><em>{{descripcion}}</em></h4>
-                <p><i class="fa fa-location-arrow"></i> {{direccion}} </p>
-                <p><i class="fa fa-phone"></i> {{telefono}} </p>
+                <p><i class="fa fa-location-arrow"></i> {{direccion | slice:0:2}} </p>
+                <!-- slice pipe -->
+                <p>Promedio Visitantes: {{visitas | number:'.0-1'}} -> {{porcentaje | percent:'.0-2'}}</p>
+                <ul class="simple-ul">
+                    <li *ngFor="let tel of telefono | slice:0:2">
+                        <p><i class="fa fa-phone"></i> {{tel}}</p>
+                    </li>
+                </ul>
                 <p><i class="fa fa fa-envelope"></i> {{email}} </p>
 
 
@@ -74,7 +80,7 @@
     <div class="container ">
 
         <!--foote_bottom_ul_amrc ends here-->
-        <p class="text-center ">Copyright {{ this.mycurdate.getFullYear()}} | Designed With by
+        <p class="text-center ">Copyright {{ this.mycurdate | date:'EEEE , y W MM-dd hh:mm:ss a' }} | Designed With by
             <a href="# ">Stefany Duque</a>
         </p>
 

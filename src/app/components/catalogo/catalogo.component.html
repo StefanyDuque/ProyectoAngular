@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row" *ngIf="productos.length > 0">
+        <div class="col-md-12">
+            <h3>Productos PLOW</h3>
+            <div class="card-column">
+                <div class="card" *ngFor="let producto of productos;let i=index">
+                    <div class="card-img-div">
+                        <img src="{{producto.imagen}}" alt="{{producto.nombre | titlecase}}" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="cartitle">{{producto.nombre | uppercase}}</h5>
+                        <p class="card-text"><strong>{{producto.precio | currency:'COP':'symbol':'.0-2'}}</strong></p>
+                        <p class="card-text">{{producto.descripcion | slice:0:70}} ...</p>
+                        <button class="btn btn-primary btn-block" [routerLink]="['/Producto',producto.SKU]">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

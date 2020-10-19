@@ -1,0 +1,20 @@
+<div class="container" *ngIf="producto != undefined">
+    <a routerLink="/Catalogo" class="btn btn-primary ">
+        <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Regresar</a>
+    <div class="row">
+        <div class="col-md-4">
+            <img [src]="producto.imagen" [alt]="producto.SKU"><br/>
+
+        </div>
+        <div class="col-md-8">
+            <h2>{{producto.nombre | uppercase}} </h2>
+            <p>{{producto.descripcion | titlecase}}</p>
+            <hr/>
+            <b>{{producto.precio | currency:'COP':'symbol-narrow':'.0-2'}}</b> <br/>
+            <div>
+                <a (click)="addProducto(producto.sku)" class="btn btn-info txt-color-white fa-pull-right">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i> &nbsp;<strong>Comprar</strong></a>
+            </div>
+        </div>
+    </div>
+</div>

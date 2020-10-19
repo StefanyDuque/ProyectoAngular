@@ -125,3 +125,8 @@ footer p {
 .mb10 em {
     color: #ccc;
 }
+
+.simple-ul {
+    list-style: none;
+    padding: 0;
+}
