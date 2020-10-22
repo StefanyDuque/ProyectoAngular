@@ -2,6 +2,9 @@
     <div class="row" *ngIf="productos.length > 0">
         <div class="col-md-12">
             <h3>Productos PLOW</h3>
+            <br/>
+            <div class="alert alert-success">Resultados encontrados: {{productos.length}} para: {{entrada}}.</div>
+            <br/>
             <div class="card-column">
                 <div class="card" *ngFor="let producto of productos;let i=index">
                     <div class="card-img-div">
@@ -16,6 +19,7 @@
                 </div>
             </div>
         </div>
+
     </div>
-    <div class="alert alert-primary" *ngIf="productos.length <= 0">No se ha encontrado un producto con esta entrada.</div>
+    <div class="alert alert-primary" *ngIf="productos.length <= 0">No se ha encontrado un producto con esta entrada: {{entrada}}.</div>
 </div>
