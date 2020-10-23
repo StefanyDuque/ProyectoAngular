@@ -37,7 +37,7 @@ export class ProductosService {
 
     for (const miproducto of this.misproductos) {
       if (miproducto.SKU == sku){
-        console.log(`${miproducto.SKU} == ${sku}`);
+        // console.log(`${miproducto.SKU} == ${sku}`);
         return miproducto;
       }
     }

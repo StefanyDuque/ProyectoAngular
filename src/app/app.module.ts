@@ -10,6 +10,7 @@ import { FooterComponent } from './templates/footer/footer.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
 import { CatalogoComponent } from './components/catalogo/catalogo.component';
 import { ProductoComponent } from './components/producto/producto.component';
+import { ProductoCardComponent } from './components/producto-card/producto-card.component';
 
 
 
@@ -22,7 +23,8 @@ import { ProductoComponent } from './components/producto/producto.component';
     FooterComponent,
     BuscarComponent,
     CatalogoComponent,
-    ProductoComponent
+    ProductoComponent,
+    ProductoCardComponent
   ],
   imports: [
     BrowserModule,

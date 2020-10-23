@@ -24,8 +24,8 @@ export class BuscarComponent implements OnInit {
     });
   }
 
-  verProducto(producto){
-    console.log(producto);
+  verProducto(sku){
+    this.router.navigate(['/Producto', sku]);
   }
 
 }

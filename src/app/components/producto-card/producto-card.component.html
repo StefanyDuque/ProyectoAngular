@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-img-div">
+        <img src="{{producto.imagen}}" alt="{{producto.nombre | titlecase}}" class="card-img-top">
+    </div>
+    <div class="card-body">
+        <h5 class="cartitle">{{producto.nombre | uppercase}}</h5>
+        <p class="card-text"><strong>{{producto.precio | currency:'COP':'symbol-narrow':'.0-2'}}</strong></p>
+        <p class="card-text">{{producto.descripcion | slice:0:70}} ...</p>
+        <button class="btn btn-primary btn-block" (click)="verProducto()">Ver Producto</button>
+    </div>
+</div>
