@@ -11,6 +11,9 @@ import { BuscarComponent } from './components/buscar/buscar.component';
 import { CatalogoComponent } from './components/catalogo/catalogo.component';
 import { ProductoComponent } from './components/producto/producto.component';
 import { ProductoCardComponent } from './components/producto-card/producto-card.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 
 
@@ -24,7 +27,10 @@ import { ProductoCardComponent } from './components/producto-card/producto-card.
     BuscarComponent,
     CatalogoComponent,
     ProductoComponent,
-    ProductoCardComponent
+    ProductoCardComponent,
+    LoginComponent,
+    RegisterComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
