@@ -1,0 +1,46 @@
+{
+  "500": {
+    "type": "danger",
+    "message": "Servicio no disponible, contacte con el soporte de Anastacia."
+  },
+  "10000" :{
+    "type" : "success",
+    "message" :  "Por favor, revisa tu correo electrónico para confirmar el registro."
+  },
+  "10500" :{
+    "type" : "danger",
+    "message" :  "ERROR! Revisa los datos introducidos o intenta luego de unos minutos."
+  },
+  "10021" :{
+    "type" : "danger",
+    "message" :  "ERROR! Nombre de usuario ya usado."
+  },
+  "10022" :{
+    "type" : "danger",
+    "message" :  "ERROR! Dirección de correo electrónico ya usado."
+  },
+  "10023" :{
+    "type" : "danger",
+    "message" :  "ERROR! Contraseñas no coinciden."
+  },
+  "10024" :{
+    "type" : "danger",
+    "message" :  "ERROR! Por favor completa los datos solicitados."
+  },
+  "10025" :{
+    "type" : "danger",
+    "message" :  "Por favor, completa este campo."
+  },
+  "10030" :{ 
+    "type" : "green",
+    "message" :  "Strong Password."
+  },
+  "10031" :{
+    "type" : "red",
+    "message" :  "Bad Password."
+  },
+  "10032" :{
+    "type" : "orange",
+    "message" :  "Moderated Password."
+  }
+}

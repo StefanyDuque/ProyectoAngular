@@ -9,3 +9,21 @@
     background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
     background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   }
+.container{
+  padding-bottom: 4em;
+}
+.required{
+  border-color:red
+}
+.form-group.hide{
+  display:block !important;
+}
+.form-group.red input{
+  border-color: red;
+}
+.form-group.orange input{
+  border-color: rgb(255, 166, 0);
+}
+.form-group.green input{
+  border-color: rgb(4, 143, 57); 
+}

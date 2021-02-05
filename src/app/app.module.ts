@@ -14,6 +14,10 @@ import { ProductoCardComponent } from './components/producto-card/producto-card.
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { ServiciosListComponent } from './components/servicios-list/servicios-list.component';
+import { ServicioComponent } from './components/servicio/servicio.component';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -30,11 +34,15 @@ import { AdminComponent } from './components/admin/admin.component';
     ProductoCardComponent,
     LoginComponent,
     RegisterComponent,
-    AdminComponent
+    AdminComponent,
+    ServiciosListComponent,
+    ServicioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -35,3 +35,6 @@ body {
     text-align: center;
     line-height: 300%;
   }
+  .container{
+    padding: 4em;
+  }

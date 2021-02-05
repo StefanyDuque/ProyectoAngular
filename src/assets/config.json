@@ -1,0 +1,4 @@
+{
+  "root":"http://localhost:8000/api/",
+  "usuarios.create": "usuarios/store" 
+}
